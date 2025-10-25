@@ -23,7 +23,7 @@ class _FooterState extends State<Footer> {
     _IconDataModel(
       icon: FontAwesomeIcons.linkedin,
       color: Color(0xFF0077B5),
-      url: 'https://www.linkedin.com/in/anas-muhd/',
+      url: 'https://www.linkedin.com/in/anas-muhd',
     ),
     _IconDataModel(
       icon: FontAwesomeIcons.whatsapp,
@@ -73,12 +73,10 @@ class _FooterState extends State<Footer> {
     return LayoutBuilder(
       builder: (context, constraints) {
         final bool isMobile = constraints.maxWidth < 600;
-        
+
         return Container(
           padding: EdgeInsets.symmetric(
-            vertical: isMobile ? 20 : 40, 
-            horizontal: isMobile ? 16 : 24
-          ),
+              vertical: isMobile ? 20 : 40, horizontal: isMobile ? 16 : 24),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -197,9 +195,7 @@ class _AnimatedBrandIconState extends State<AnimatedBrandIcon> {
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
                 border: Border.all(
-                  color: Colors.black, 
-                  width: widget.isMobile ? 2 : 3
-                ),
+                    color: Colors.black, width: widget.isMobile ? 2 : 3),
               ),
             ),
           ],
