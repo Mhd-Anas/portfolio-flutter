@@ -1,0 +1,53 @@
+name: portfolio_web
+description: "A modern portfolio website built with Flutter and Spring Boot."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  confetti: ^0.7.0
+  #font_awesome_flutter: ^10.7.0
+  font_awesome_flutter: 10.7.0
+  animated_button: ^0.2.0
+  google_fonts: ^6.2.1
+
+
+
+
+  # ✅ Add required packages
+  provider: ^6.1.2
+  http: ^1.2.2
+  animated_text_kit: ^4.2.2
+  url_launcher: ^6.3.0
+
+  # iOS style icons (Cupertino)
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/logo.jpg
+    - assets/profile.jpg
+    - assets/robot.png
+
+  # If you have images/assets, add them here
+  # assets:
+  #   - assets/images/
+
+  # If you want custom fonts, add them here
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: assets/fonts/CustomFont-Regular.ttf
