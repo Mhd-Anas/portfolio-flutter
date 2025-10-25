@@ -23,7 +23,7 @@ class _FooterState extends State<Footer> {
     _IconDataModel(
       icon: FontAwesomeIcons.linkedin,
       color: Color(0xFF0077B5),
-      url: 'https://www.linkedin.com/in/anas-muhd',
+      url: 'www.linkedin.com/in/anas-muhd',
     ),
     _IconDataModel(
       icon: FontAwesomeIcons.whatsapp,
